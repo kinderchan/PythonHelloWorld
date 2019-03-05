@@ -11,6 +11,8 @@ def download_img(img_url,filename):
     img_data = response.content
     with open(filename, 'wb') as f:
         f.write(img_data)
+
+print('Hello learn')
 download_img('https://www.baidu.com/img/bd_logo1.png','baidu.png')
 
 
